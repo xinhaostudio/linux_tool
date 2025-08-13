@@ -91,7 +91,7 @@ info "安装编译工具链..."
 if [ "$SYSTEM_TYPE" = "rhel" ]; then
     sudo $PKG_MANAGER install -y git gcc g++ make net-tools
 else
-    sudo $PKG_MANAGER install -y git gcc g++ make net-tools
+    sudo $PKG_MANAGER install -y git gcc g++ make net-tools cmake
 fi
 
 # 6. 克隆 SRS 源码
