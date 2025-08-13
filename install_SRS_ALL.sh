@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# SRS 一键安装脚本（XinHaoStudio版）
+# SRS 一键安装脚本
 # 适配系统：CentOS/RHEL/Rocky Linux/Ubuntu/Debian
 # 功能：系统识别 + 交互确认 + 依赖安装 + 编译启动 + 端口检查
 
